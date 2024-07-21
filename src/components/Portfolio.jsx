@@ -14,7 +14,7 @@ const Portfolio = () => {
             <p className="intro"> I'm a Junior Full Stack Developer passionate about the intersection of technology and design.<br /> With a background in Graphic Design and UX/UI Design, I aim to integrate creativity and functionality into all my projects.</p>            <div className="worksimages">
                 <div className="box-images">
                 <a href="https://gamersbin.vercel.app/" target="_blank"><img src={Project1} alt="projeto1" className="worksimages"/></a>
-                <img src={Project2} alt="projeto2" className="worksimages"/>
+                <a href="https://raincheck-smoky.vercel.app" target="_blank"><img src={Project2} alt="projeto2" className="worksimages"/></a>
                 <img src={Project3} alt="projeto3" className="worksimages"/>
                 {/* <img src="" alt="" className="worksimages"/>
                 <img src="" alt="" className="worksimages"/>
