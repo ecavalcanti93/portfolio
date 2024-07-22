@@ -22,7 +22,7 @@ const Navbar = () => {
                 <Link activeClass="active" smooth spy to="skills" className="desktopList" offset={-50}>About</Link>
                 <Link activeClass="active" smooth spy to="works" className="desktopList" offset={-50}>Portfolio</Link>
             </div>
-            <Link activeClass="active" smooth spy to="contact"><button className="desktopMenuButton">
+            <Link activeClass="active" smooth spy to="contact" ><button className="desktopMenuButton">
                 <img src={message} alt="message" className="desktopMenuImage" />
                 Contact Me
             </button></Link>

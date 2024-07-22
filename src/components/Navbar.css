@@ -96,4 +96,10 @@
     .desktopMenuButton {
         display: none;
     }
+
+    .active{
+        color:#be1d2e;
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid #be1d2e;
+    }
 }
