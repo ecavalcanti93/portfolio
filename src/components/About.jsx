@@ -20,14 +20,14 @@ const About = () => {
 
     return (
         <section id="about_box">
+        
             <div className="aboutme">
                 <span className="hello">Hello World!</span>
                 <span>I'm <span className="name2">Eric</span> <br /> Graphic Designer <span className="plus">+</span> <br/> Web Developer</span>
-                {/* <p className="intro"> I'm a Junior Full Stack Developer passionate about the intersection of technology and design.<br /> With a background in Graphic Design UX/UI Design, I aim to integrate creativity and functionality into all my projects.</p> */}
                 <Link><button onClick={handleDownloadCV} className="hire_btn"><img src={hire} alt="hireme" className="hirebtn"/> Download CV</button></Link>
+            <img src={perfil} alt="Profile" className="perfil"/>
             </div>
  
-            <img src={perfil} alt="Profile" className="perfil"/>
 
         </section>
     );
