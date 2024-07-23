@@ -76,16 +76,27 @@
 
 @media screen and (max-width: 840px){
 
-    .profileMob{
-        position: initial;
-        height: 50vh;   
+    #about_box {
+        flex-direction: column;
+        align-items: center;
     }
 
     .perfil{
         position: initial;
         flex-direction: column;
-        object-fit: cover;
-        height: 50%;
+        object-fit: contain; /* Alterado para contain */
+        height: auto; /* Ajuste para auto para manter proporção */
+        max-height: 50%; /* Limite a altura máxima */
+        width: 100%; /* Ajuste a largura total */
         display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .perfil {
+        height: calc(100vh - 4rem);
+        width: auto;
+        right: 0rem;
+        top: 0rem; 
     }
 }
