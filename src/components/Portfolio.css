@@ -12,8 +12,10 @@
 }
 
 .worksTitle {
-    margin: 1rem 0;
+    /* margin: 1rem 0; */
     font-size: 3rem;
+    padding-top: 2rem;
+    font-weight: 600;
     
 }
 
@@ -37,3 +39,24 @@
         height: 50vw;
     }
 } */
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.links a{
+    display: block;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.logoLink{
+    display: block;
+    object-fit: cover;
+    height: 3rem;
+    width: 3rem;
+    margin: 0 0.75rem;
+}

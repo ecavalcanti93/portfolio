@@ -23,7 +23,7 @@ const About = () => {
         
             <div className="aboutme">
                 <span className="hello">Hello World!</span>
-                <span>I'm <span className="name2">Eric</span> <br /> Graphic Designer <span className="plus">+</span> <br/> Web Developer</span>
+                <span className="abouteText">I'm <span className="name2">Eric</span> <br /> Graphic Designer <span className="plus">+</span> <br/> Web Developer</span>
                 <Link><button onClick={handleDownloadCV} className="hire_btn"><img src={hire} alt="hireme" className="hirebtn"/> Download CV</button></Link>
             <img src={perfil} alt="Profile" className="perfil"/>
             </div>

@@ -29,7 +29,7 @@ const Navbar = () => {
 
             <img src={menu} alt="Menu" className="logoMobile" onClick={() => setMobileMenu(!mobileMenu)}/>  
             <div className="mobileMenu" style={{display: mobileMenu ? "flex" : "none"}}>
-                <Link activeClass="active" smooth spy to="about_box" className="mobileList" offset={-100} onClick={() => setMobileMenu(false)}>Home</Link>
+                <Link activeClass="active" smooth spy to="about_box" className="mobileList" offset={-50} onClick={() => setMobileMenu(false)}>Home</Link>
                 <Link activeClass="active" smooth spy to="skills" className="mobileList" offset={-50} onClick={() => setMobileMenu(false)}>About</Link>
                 <Link activeClass="active" smooth spy to="works" className="mobileList" offset={-50} onClick={() => setMobileMenu(false)}>Portfolio</Link>
                 <Link activeClass="active" smooth spy to="contact" className="mobileList" offset={-50} onClick={() => setMobileMenu(false)}>Contact Me</Link>

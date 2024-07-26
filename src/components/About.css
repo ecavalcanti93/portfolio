@@ -74,6 +74,11 @@
     display: flex;
 }
 
+
+.abouteText{
+    text-shadow: 4px 4px 8px rgb(0, 0, 0);
+}
+
 @media screen and (max-width: 840px){
 
     #about_box {
@@ -84,10 +89,10 @@
     .perfil{
         position: initial;
         flex-direction: column;
-        object-fit: contain; /* Alterado para contain */
-        height: auto; /* Ajuste para auto para manter proporção */
-        max-height: 50%; /* Limite a altura máxima */
-        width: 100%; /* Ajuste a largura total */
+        object-fit: contain; 
+        height: auto; 
+        max-height: 50%; 
+        width: 100%;
         display: flex;
     }
 }
