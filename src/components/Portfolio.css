@@ -34,6 +34,23 @@
     flex-wrap: wrap;
 }
 
+.btnSee{
+    background: #be1d2e;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    margin: 2rem;
+    cursor: pointer;
+    padding: 0.75rem 3.5rem;
+    opacity: 1;
+    height: auto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btnSee:hover {
+    filter: drop-shadow(0px 0px 14px #f8152c);
+}
+
 /* @media screen and (max-width:585px) {
     .worksimages{
         height: 50vw;
