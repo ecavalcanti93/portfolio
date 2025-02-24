@@ -65,21 +65,21 @@ const Contact = () => {
       >
         <input
           type="text"
-          className="bg-blackSpecial mb-4 rounded-sm sm:w-150 pl-2.5 pt-2.5 placeholder:text-neutral-700 placeholder:italic"
+          className="bg-blackSpecial mb-4 w-75 rounded-sm sm:w-150 pl-2.5 pt-2.5 placeholder:text-neutral-700 placeholder:italic"
           placeholder="Your Name"
           name="your_name"
           required
         />
         <input
           type="email"
-          className="bg-blackSpecial mb-4 rounded-sm sm:w-150 pl-2.5 pt-2.5 placeholder:text-neutral-700 placeholder:italic"
+          className="bg-blackSpecial mb-4 w-75 rounded-sm sm:w-150 pl-2.5 pt-2.5 placeholder:text-neutral-700 placeholder:italic"
           placeholder="Your Email"
           name="your_email"
           required
         />
         <textarea
           name="message"
-          className="bg-blackSpecial rounded-sm sm:w-150 pl-2.5 pt-2.5 placeholder:text-neutral-700 placeholder:italic"
+          className="bg-blackSpecial w-75 rounded-sm sm:w-150 pl-2.5 pt-2.5 placeholder:text-neutral-700 placeholder:italic"
           rows="5"
           placeholder="Type a Message"
           required
