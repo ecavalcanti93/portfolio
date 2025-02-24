@@ -59,7 +59,7 @@ const Contact = () => {
       </span>
 
       <form
-        className="flex flex-col gap-2.5 justify-center text-redSpecial"
+        className="flex flex-col gap-2.5 justify-center items-center text-redSpecial"
         ref={form}
         onSubmit={sendEmail}
       >
@@ -84,18 +84,22 @@ const Contact = () => {
           placeholder="Type a Message"
           required
         />
-        {message && <div className={`message ${messageType}`}>{message}</div>}
-      </form>
+        {message && (
+  <div className={`message ${messageType}`}>
+    {message}
+  </div>
+)}
       <div className="pt-5">
         <button
           type="submit"
           value="Send"
           id="btnSubmit"
-          className="flex pt-2 pb-2 pl-8 pr-8 justify-center items-center rounded-sm bg-redSpecial cursor-pointer"
+          className="flex pt-2 pb-2 pl-8 pr-8 text-white rounded-sm bg-redSpecial cursor-pointer"
         >
           Submit
         </button>
       </div>
+      </form>
     </section>
   );
 };

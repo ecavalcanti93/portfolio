@@ -21,11 +21,10 @@ const Portfolio = () => {
     >
       <h2 className="text-4xl  font-bold sm:text-5xl">My Projects</h2>
       <p className="text-center p-5">
-        I've highlighted some of my academic projects for you. Click and check
-        them out!
+      Curious about my work? Click to explore my academic projects and see what I’ve built!
       </p>
       <div className="worksimages">
-        <div className="flex flex-wrap justify-center gap-5 ">
+        <div className="flex flex-wrap justify-center gap-5">
           <a href="https://gamersbin.vercel.app/" target="_blank">
             <img src={Project1} alt="projeto1" className="rounded-xl" />
           </a>

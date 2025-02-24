@@ -59,11 +59,10 @@ const Navbar = () => {
           Portfolio
         </Link>
       </div>
-      <Link activeClass="active" smooth spy to="contact">
+      <Link activeClass="active3" smooth spy to="contact" offset={-100}>
         <button
           id="desktopMenuButton"
           className="hidden p-3 gap-2 justify-center items-center rounded-full  cursor-pointer sm:flex sm:block bg-redSpecial"
-          offset={-200}
         >
           <img src={message} alt="message" className="h-5" />
           {/* Contact Me */}
