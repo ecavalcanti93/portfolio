@@ -1,12 +1,14 @@
 import React from "react";
-import "./Footer.css"
 
 const Footer = () => {
-    return (
-        <footer className="footer">
-            @{new Date().getFullYear()} - Created by Eric Cavalcanti. All right reserved.
-        </footer>
-    )
-}
+  return (
+    <footer className="text-xs h-8 bg-blackSpecial text-center">
+      <div>
+        @{new Date().getFullYear()} - Created by Eric Cavalcanti. All right
+        reserved.
+      </div>
+    </footer>
+  );
+};
 
 export default Footer;
