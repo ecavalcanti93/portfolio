@@ -76,10 +76,15 @@ const Navbar = () => {
         onClick={() => setMobileMenu(!mobileMenu)}
       />
       <div
-        className={`fixed inset-0 flex flex-col justify-between items-center bg-redSpecial text-2xl font-bold text-black transition-transform duration-300 ${
+        className={`fixed inset-0 flex flex-col justify-around items-center bg-redSpecial text-2xl font-bold text-black transition-transform duration-300 ${
           mobileMenu ? "translate-x-0" : "translate-x-full"
         } sm:hidden z-50 h-full py-10`}
       >
+        <img
+        src={logo}
+        alt="logo"
+        className="h-12"
+      />
         <Link
           activeClass="active2"
           smooth
