@@ -9,7 +9,7 @@ import Project2 from "../images/Project2.png";
 import Project3 from "../images/Project3.png";
 import Project4 from "../images/Project4.png";
 import Project5 from "../images/Project5.png";
-// import Project6 from "../images/Project6.png";
+import Project6 from "../images/Project6.png";
 
 const Portfolio = () => {
   const [showMore, setShowMore] = useState(false);
@@ -21,22 +21,25 @@ const Portfolio = () => {
     >
       <h2 className="text-4xl  font-bold sm:text-5xl">My Projects</h2>
       <p className="text-center p-5">
-      Curious about my work? Click to explore my academic projects and see what I’ve built!
+      Curious about my work? Click to explore my academic projects and see what I’ve built! <br/><span className="text-xs text-redSpecial">ATTENTION: Some pages may show an error due to the Vercel server. Try reloading the page!</span>
       </p>
       <div className="worksimages">
         <div className="flex flex-wrap justify-center gap-5">
           <a href="https://gamersbin.vercel.app/" target="_blank">
             <img src={Project1} alt="projeto1" className="rounded-xl" />
           </a>
+          <a href="https://findahero.vercel.app" target="_blank">
+            <img src={Project6} alt="projeto6" className="rounded-xl" />
+          </a>
           <a href="https://raincheck-smoky.vercel.app" target="_blank">
             <img src={Project2} alt="projeto2" className="rounded-xl" />
-          </a>
-          <a href="https://secretnumber-pink.vercel.app" target="_blank">
-            <img src={Project3} alt="projeto3" className="rounded-xl" />
           </a>
 
           {showMore && (
             <>
+          <a href="https://secretnumber-pink.vercel.app" target="_blank">
+            <img src={Project3} alt="projeto3" className="rounded-xl" />
+          </a>
               <a
                 href="https://secret-santa-nine-phi.vercel.app"
                 target="_blank"
