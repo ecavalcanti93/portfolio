@@ -58,7 +58,7 @@ const Portfolio = () => {
               <a href="https://currency-converter-chi-sepia.vercel.app" target="_blank">
                 <img src={CurrencyConverter} alt="projeto7" className="rounded-xl" />
               </a>
-              <a href="#" target="_blank">
+              <a href="https://qrcode-creator-eight.vercel.app" target="_blank">
                 <img src={QRCode} alt="projeto7" className="rounded-xl" />
               </a>
             </>
