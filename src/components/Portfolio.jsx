@@ -13,6 +13,7 @@ import RainCheck from "../images/RainCheck.png";
 import Calculator from "../images/Calculator.png";
 import Fokus from "../images/Fokus.png";
 import CurrencyConverter from "../images/CurrencyConverter.png";
+import BlackJack from "../images/BlackJack.png";
 
 const Portfolio = () => {
   const [showMore, setShowMore] = useState(false);
@@ -29,37 +30,40 @@ const Portfolio = () => {
       <div className="worksimages">
         <div className="flex flex-wrap justify-center gap-5">
           <a href="https://gamersbin.vercel.app/" target="_blank">
-            <img src={GamersBin} alt="projeto1" className="rounded-xl" />
+            <img src={GamersBin} alt="GamersBin" className="rounded-xl" />
           </a>
           <a href="https://findahero.vercel.app" target="_blank">
-            <img src={FindaHero} alt="projeto6" className="rounded-xl" />
+            <img src={FindaHero} alt="Find a Hero!" className="rounded-xl" />
           </a>
-          <a href="https://raincheck-smoky.vercel.app" target="_blank">
-            <img src={RainCheck} alt="projeto2" className="rounded-xl" />
+          <a href="https://project-game-lovat.vercel.app" target="_blank">
+            <img src={BlackJack} alt="Black Jack" className="rounded-xl" />
           </a>
 
           {showMore && (
             <>
+          <a href="https://raincheck-smoky.vercel.app" target="_blank">
+            <img src={RainCheck} alt="Rain Check" className="rounded-xl" />
+          </a>
           <a href="https://secretnumber-pink.vercel.app" target="_blank">
-            <img src={GameNumber} alt="projeto3" className="rounded-xl" />
+            <img src={GameNumber} alt="Game Number" className="rounded-xl" />
           </a>
               <a
                 href="https://secret-santa-nine-phi.vercel.app"
                 target="_blank"
               >
-                <img src={SecretSanta} alt="projeto4" className="rounded-xl" />
+                <img src={SecretSanta} alt="Secret Santa" className="rounded-xl" />
               </a>
               <a href="https://calculator-mauve-rho.vercel.app" target="_blank">
-                <img src={Calculator} alt="projeto5" className="rounded-xl" />
+                <img src={Calculator} alt="Basic Calculator" className="rounded-xl" />
               </a>
               <a href="https://fokus-pomodoro-delta.vercel.app" target="_blank">
-                <img src={Fokus} alt="projeto7" className="rounded-xl" />
+                <img src={Fokus} alt="Fokus Pomodoro" className="rounded-xl" />
               </a>
               <a href="https://currency-converter-chi-sepia.vercel.app" target="_blank">
-                <img src={CurrencyConverter} alt="projeto7" className="rounded-xl" />
+                <img src={CurrencyConverter} alt="Currency Converter" className="rounded-xl" />
               </a>
               <a href="https://qrcode-creator-eight.vercel.app" target="_blank">
-                <img src={QRCode} alt="projeto7" className="rounded-xl" />
+                <img src={QRCode} alt="QRCode Creator" className="rounded-xl" />
               </a>
             </>
           )}
