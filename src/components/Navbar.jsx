@@ -17,9 +17,9 @@ const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
   return (
     <nav
-      className="flex mx-auto max-w-screen-lg justify-between items-center pt-4 pb-4 pr-5 pl-5 sticky top-0 bg-black sm:pr-10 sm:pl-10"
-      id="navbar"
-    >
+  className="flex mx-auto max-w-screen-lg justify-between items-center pt-4 pb-4 pr-5 pl-5 sticky top-0 bg-black z-[9999] sm:pr-10 sm:pl-10"
+  id="navbar"
+>
       <img
         src={logo}
         alt="logo"

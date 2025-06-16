@@ -29,41 +29,105 @@ const Portfolio = () => {
       </p>
       <div className="worksimages">
         <div className="flex flex-wrap justify-center gap-5">
-          <a href="https://gamersbin.vercel.app/" target="_blank">
+          <a href="https://gamersbin.vercel.app/" target="_blank" className="project-link">
             <img src={GamersBin} alt="GamersBin" className="rounded-xl" />
+            <div className="project-hover-text">
+                <h3 className="underline font-bold">GamersBin</h3>
+                <span className="mt-4 text-sm">
+                  This is the final project of the IronHack bootcamp — a fully responsive FullStack CRUD application built with React, where users can create and manage their own personalized gaming library.
+              </span>
+            </div>
           </a>
-          <a href="https://findahero.vercel.app" target="_blank">
+
+          <a href="https://findahero.vercel.app" target="_blank" className="project-link">
             <img src={FindaHero} alt="Find a Hero!" className="rounded-xl" />
+            <div className="project-hover-text">
+                <h3 className="underline font-bold">Find a Hero!</h3>
+                <span className="mt-4 text-sm">
+                  This is the second project of the IronHack bootcamp — a responsive CRUD app using Handlebars and Tailwind, where people in danger can request help from registered heroes.
+              </span>
+            </div>
           </a>
-          <a href="https://project-game-lovat.vercel.app" target="_blank">
+
+          <a href="https://project-game-lovat.vercel.app" target="_blank" className="project-link">
             <img src={BlackJack} alt="Black Jack" className="rounded-xl" />
+            <div className="project-hover-text">
+                <h3 className="underline font-bold">Black Jack</h3>
+                <span className="mt-4 text-sm">
+                This is the first project of the IronHack bootcamp — built with HTML, CSS, and JS, and inspired by the classic card game Blackjack. The goal is to score more points than the dealer without exceeding 21.
+                </span>
+            </div>
           </a>
 
           {showMore && (
             <>
-          <a href="https://raincheck-smoky.vercel.app" target="_blank">
+          <a href="https://raincheck-smoky.vercel.app" target="_blank" className="project-link">
             <img src={RainCheck} alt="Rain Check" className="rounded-xl" />
+                        <div className="project-hover-text">
+                <h3 className="underline font-bold">Rain Check</h3>
+                <span className="mt-4 text-sm">
+                With Rain Check, you can discover the weather of any city in the world in seconds — all thanks to the integration with a powerful weather API. The app is built with HTML, JS, and CSS.
+                </span>
+            </div>
           </a>
-          <a href="https://secretnumber-pink.vercel.app" target="_blank">
+
+          <a href="https://secretnumber-pink.vercel.app" target="_blank" className="project-link">
             <img src={GameNumber} alt="Game Number" className="rounded-xl" />
+            <div className="project-hover-text">
+                <h3 className="underline font-bold">Game Number Game</h3>
+                <span className="mt-4 text-sm">
+                The Wizard has chosen a secret number! Try to guess what it is. Make your guess and follow the clues to uncover the mysterious number. An app created with HTML, CSS and JS.
+                </span>
+            </div>
           </a>
+
               <a
                 href="https://secret-santa-nine-phi.vercel.app"
-                target="_blank"
+                target="_blank" className="project-link"
               >
                 <img src={SecretSanta} alt="Secret Santa" className="rounded-xl" />
+                <div className="project-hover-text">
+                <h3 className="underline font-bold">Secret Santa</h3>
+                <span className="mt-4 text-sm">
+                
+                </span>
+            </div>
               </a>
-              <a href="https://calculator-mauve-rho.vercel.app" target="_blank">
+              <a href="https://calculator-mauve-rho.vercel.app" target="_blank" className="project-link">
                 <img src={Calculator} alt="Basic Calculator" className="rounded-xl" />
+                <div className="project-hover-text">
+                <h3 className="underline font-bold">Basic Calculator</h3>
+                <span className="mt-4 text-sm">
+                
+                </span>
+            </div>
               </a>
-              <a href="https://fokus-pomodoro-delta.vercel.app" target="_blank">
+              <a href="https://fokus-pomodoro-delta.vercel.app" target="_blank" className="project-link">
                 <img src={Fokus} alt="Fokus Pomodoro" className="rounded-xl" />
+                <div className="project-hover-text">
+                <h3 className="underline font-bold">Fokus - Pomodoro APP</h3>
+                <span className="mt-4 text-sm">
+                
+                </span>
+            </div>
               </a>
-              <a href="https://currency-converter-chi-sepia.vercel.app" target="_blank">
+              <a href="https://currency-converter-chi-sepia.vercel.app" target="_blank" className="project-link">
                 <img src={CurrencyConverter} alt="Currency Converter" className="rounded-xl" />
+                <div className="project-hover-text">
+                <h3 className="underline font-bold">Currency Converter</h3>
+                <span className="mt-4 text-sm">
+                
+                </span>
+            </div>
               </a>
-              <a href="https://qrcode-creator-eight.vercel.app" target="_blank">
+              <a href="https://qrcode-creator-eight.vercel.app" target="_blank" className="project-link">
                 <img src={QRCode} alt="QRCode Creator" className="rounded-xl" />
+                <div className="project-hover-text">
+                <h3 className="underline font-bold">QR Code Creator</h3>
+                <span className="mt-4 text-sm">
+                
+                </span>
+            </div>
               </a>
             </>
           )}
