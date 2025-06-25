@@ -89,7 +89,7 @@ const Portfolio = () => {
                 <div className="project-hover-text">
                 <h3 className="underline font-bold">Secret Santa</h3>
                 <span className="mt-4 text-sm">
-                
+                The Secret Santa app allows users to organize gift exchange draws quickly and easily. Built with HTML, CSS, and JavaScript, it runs entirely in the browser with no backend required.
                 </span>
             </div>
               </a>
@@ -98,7 +98,7 @@ const Portfolio = () => {
                 <div className="project-hover-text">
                 <h3 className="underline font-bold">Basic Calculator</h3>
                 <span className="mt-4 text-sm">
-                
+                The Basic Calculator app allows users to perform simple math operations directly in the browser. Built with HTML, CSS, and JavaScript, it's lightweight, functional, and responsive.
                 </span>
             </div>
               </a>
@@ -107,7 +107,7 @@ const Portfolio = () => {
                 <div className="project-hover-text">
                 <h3 className="underline font-bold">Fokus - Pomodoro APP</h3>
                 <span className="mt-4 text-sm">
-                
+                It is a productivity app based on the Pomodoro technique, designed to help users optimize their study and work time. It breaks tasks into focus and break cycles, promoting concentration and balance.
                 </span>
             </div>
               </a>
@@ -116,7 +116,7 @@ const Portfolio = () => {
                 <div className="project-hover-text">
                 <h3 className="underline font-bold">Currency Converter</h3>
                 <span className="mt-4 text-sm">
-                
+                A simple and fast currency converter built with HTML, CSS, and JavaScript. Convert values between currencies in real time with an easy-to-use interface.
                 </span>
             </div>
               </a>
@@ -125,7 +125,7 @@ const Portfolio = () => {
                 <div className="project-hover-text">
                 <h3 className="underline font-bold">QR Code Creator</h3>
                 <span className="mt-4 text-sm">
-                
+                This app allows you to quickly and easily generate QR Codes. Enter any text, link, or info , and the app will automatically create the corresponding QR Code, with easy PNG download for sharing and use.
                 </span>
             </div>
               </a>
